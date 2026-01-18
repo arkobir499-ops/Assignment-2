@@ -4,3 +4,6 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/arkobir499-ops/Assignment-2.git
 git push -u origin main
+
+Repo link: https://github.com/arkobir499-ops/Assignment-2
+live link: https://arkobir499-ops.github.io/Assignment-2/
