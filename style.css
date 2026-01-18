@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     max-width: 1600px;
-    background-color: #1A0B2E;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+    color: white;
 }
-
+.main-header-part{
+    background-color: #1A0B2E;
+}
 .header-container{
     max-width: 75%;
     margin: 0 auto;
@@ -16,11 +16,11 @@
     justify-content: space-between;
     padding: 16px 0;
     align-items: center;
+    
 }
 .header-container .nav-part .menu{
     display: flex;
-    gap: 32px;
-      
+    gap: 32px;    
 }
 .header-container .nav-part .menu li{
     list-style-type: none;
@@ -39,4 +39,128 @@
     background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);
     padding: 12px 16px;
     
+}
+.header-container .button-part button img{
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);
+}
+.humburger{
+    position: absolute;
+    display: none;
+}
+.hero-container{
+    background-image: url(./assets/hero-bg.png);
+    
+    background-size: contain;
+    max-width: 1600px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.circle-div{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-image: url(./assets/hero-circle.png);
+    background-size: cover;
+    margin: auto;
+}
+.circle-div img{
+    margin-top: 80px;
+}
+.circle-div button{
+    padding: 8px 16px; 
+    background-color: #57e433;
+    color: black;
+    border-radius: 100px;
+    position: absolute;
+
+}
+.hero-container .hero-content h2{
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 40px;
+}
+.hero-container .hero-content p{
+    margin-top: 8px;
+
+}
+.hero-button{
+    margin-top: 25px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container .hero-button .hero-button1 button{
+    padding: 12px 20px;
+    border-radius: 100px;
+    justify-content: center;
+     display: flex;
+    align-items: center;
+    gap: 4px;
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);
+
+}
+.hero-container .hero-button .hero-button2 button{
+    padding: 12px 20px;
+    border-radius: 100px;
+    justify-content: center;
+     display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: #ffffff1c;
+    border:1px solid #00FF88;
+    color: #00FF88;
+}
+
+@media screen and (max-width:576px) {
+    .header-container{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    }
+    .header-container .nav-part .menu{
+    display: none;   
+    }
+    .header-container .button-part button{
+        display: none;
+    }
+    .humburger{
+    position: static;
+    display: block;  
+    }
+
+    .hero-container{
+    
+    
+    background-size: calc(100%) calc(90%);
+    max-width: 576px;
+    padding: 40px 20px;
+    }
+
+    .hero-container .hero-content h2{
+    font-size: 40px;
+    }
+    .hero-container .hero-content p{
+        padding: 0 60px;
+    }
+    .circle-div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(./assets/hero-circle.png);
+    background-size: cover;
+    margin: auto;
+}
+.circle-div img{
+    height: auto;
+    width: 80px;
+}
+.circle-div img{
+    margin-top: 40px;
+}
 }
