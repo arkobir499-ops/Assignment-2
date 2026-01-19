@@ -138,15 +138,13 @@ hr{
     width: 75%;
     margin: auto;
 }
-
 .podcast-info-container{
     max-width: 75%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     align-items: center;
-    gap: 80px;
-    
+    gap: 80px;  
 }
 .podcast-info-container .podcast-info{
     text-align: center;
@@ -202,11 +200,9 @@ hr{
     "headphone phone phone"
     "headphone locations locations"
     "interviews interviews resources";
-
 }
 .audio{
-    padding: 107px 40px;
-    
+    padding: 107px 40px;   
 }
 .audio img, .device img, .location img, .interview img .resource img{
     height: 60px;
@@ -308,5 +304,26 @@ hr{
 }
 .podcast-info-container .podcast-info p{
     margin-bottom: 20px;
+}
+.complex-section h1{
+    padding-top: 20px;
+    font-size: 35px;
+    font-style: bold;
+}
+.audio{
+    padding: 40px;   
+}
+.main-complex-part{
+    padding: 16px 20px;
+    max-width: 85%;
+    margin: auto;
+    display: grid;
+    gap: 15px;
+    grid-template-areas: 
+    "headphone"
+    "phone"
+    "locations"
+    "interviews"
+    "resources";
 }
 }
