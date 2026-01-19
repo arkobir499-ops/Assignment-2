@@ -91,7 +91,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .hero-container .hero-button .hero-button1 button{
     padding: 12px 20px;
     border-radius: 100px;
@@ -113,6 +112,55 @@
     border:1px solid #00FF88;
     color: #00FF88;
 }
+.podcast-container{
+    background-color: #1A0B2E;
+}
+.podcast-container .podcast-contant{
+    max-width: 75%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.podcast-container .podcast-contant h2{
+    font-size: 48px;
+}
+.podcast-container .podcast-contant p{
+    line-height: 30px;
+    font-size: 16px;
+    padding: 0 152px;
+    margin-top: 20px;
+}
+.podcast-container .podcast-contant span{
+    margin-top: 20px;
+    display: block;
+}
+hr{
+    width: 75%;
+    margin: auto;
+}
+
+.podcast-info-container{
+    max-width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    gap: 80px;
+    
+}
+.podcast-info-container .podcast-info{
+    text-align: center;
+    margin-top: 80px;
+}
+.podcast-info-container .podcast-info h3{
+    margin-bottom: 16px;
+    font-size: 48px;
+    color: #00FF88;
+}
+.podcast-info-container .podcast-info p{
+    font-style: 16px;
+    margin-bottom: 120px;
+}
 
 @media screen and (max-width:576px) {
     .header-container{
@@ -133,15 +181,11 @@
     position: static;
     display: block;  
     }
-
     .hero-container{
-    
-    
     background-size: calc(100%) calc(90%);
     max-width: 576px;
     padding: 40px 20px;
     }
-
     .hero-container .hero-content h2{
     font-size: 40px;
     }
@@ -162,5 +206,45 @@
 }
 .circle-div img{
     margin-top: 40px;
+}
+.podcast-container .podcast-contant{
+    max-width: 576px;
+    padding: 40px 20px;
+}
+.podcast-container .podcast-contant h2{
+    font-size: 35px;
+}
+.podcast-container .podcast-contant p{
+    line-height: 20px;
+    font-size: 12px;
+    padding: 0;
+    margin-top: 15px;
+}
+.podcast-container .podcast-contant span{
+    margin-top: 10px;
+    font-size: 12px;
+    display: block;
+}
+hr{
+    width: 90%;
+    margin: auto;
+}
+.podcast-info-container{
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    
+}
+.podcast-info-container .podcast-info{
+    text-align: center;
+    margin-top: 20px;
+}
+.podcast-info-container .podcast-info h3{
+    margin-bottom: 5px;
+    font-size: 35px;
+}
+.podcast-info-container .podcast-info p{
+    margin-bottom: 20px;
 }
 }
