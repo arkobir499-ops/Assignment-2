@@ -161,6 +161,68 @@ hr{
     font-style: 16px;
     margin-bottom: 120px;
 }
+.complex-section{
+    background-color: #1A0B2E;
+}
+.complex-section h1{
+    text-align: center;
+}
+.audio{
+    grid-area: headphone;
+}
+.device{
+    grid-area: phone;
+}
+.location{
+    grid-area: locations;
+}
+.interview{
+    grid-area: interviews;
+}
+.resource{
+    grid-area: resources;
+}
+.common-bg-clr{
+    background-color: #2a0f4d;
+    border-radius: 10px;
+    padding: 40px;
+}
+.complex-section h1{
+    padding-top: 120px;
+    font-size: 48px;
+    font-style: bold;
+}
+.main-complex-part{
+    padding: 40px 0 120px 0;
+    max-width: 75%;
+    margin: auto;
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+    "headphone phone phone"
+    "headphone locations locations"
+    "interviews interviews resources";
+
+}
+.audio{
+    padding: 107px 40px;
+    
+}
+.audio img, .device img, .location img, .interview img .resource img{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 16px;
+}
+.audio h3,.device h3,.location h3, .interview h3, .resource h3{
+    font-size: 24px;
+    font-style: bold;
+    margin-bottom: 16px;
+}
+.audio p, .device p, .location p, .resource p, .interview p{
+    font-size: 16px;
+    line-height: 24px;
+    
+}
 
 @media screen and (max-width:576px) {
     .header-container{
