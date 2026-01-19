@@ -271,6 +271,50 @@ hr{
 .time{
     display: flex;
 }
+.host-container{
+        background-color: #1A0B2E;
+        padding: 120px 0;
+
+}
+.host-container h2{
+    text-align: center;
+    max-width: 75%;
+    margin: auto;
+    font-size: 48px;
+}
+.host-intro{
+    background: #250e44;
+    max-width: 75%;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.host-intro .host-pic{
+    padding: 40px;
+}
+.host-contant{
+    padding: 45px 40px 45px 15px;
+}
+.host-contant h1{
+    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.host-contant p{
+    line-height: 24px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.host-contant .icon-part{
+    display: flex;
+    gap: 10px;
+}
+.host-contant .icon-part img{
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
 @media screen and (max-width:576px) {
     .header-container{
     max-width: 90%;
@@ -398,5 +442,45 @@ hr{
     display: flex;
     gap: 20px;
     flex-direction: column;
+}
+.host-container{
+        padding: 20px 0;
+        margin: auto;
+}
+.host-container h2{
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+    font-size: 32px;
+}
+.host-intro{
+    background: #250e44;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.host-intro .host-pic{
+    padding: 0px;
+    margin: 20px auto;
+}
+.host-contant{
+    padding: 10px 10px ;
+    text-align: center;
+}
+.host-contant h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.host-contant p{
+    line-height: 24px;
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+.host-contant .icon-part{
+    justify-content: center;
 }
 }
